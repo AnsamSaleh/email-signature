@@ -1,0 +1,45 @@
+body{
+	background-color: #eee;
+}
+.con{
+	position: relative;
+	top: 100px;
+	width: 50%;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+}
+.con img{
+	padding: 3rem 1rem;
+	
+}
+.con .bor{
+	border: 2px solid #25b1a6;
+	width: 3px;
+	height: 100%;
+	margin-left: 10px;
+}
+.con .text{
+    vertical-align: middle;
+	padding: 10% 0;	
+}
+.con i{
+	color: #333;
+}
+.con a{
+	color: #333;
+}
+@media(max-width:1024px){
+	.con{
+		width: 80%;
+	}
+}
+@media(max-width:768px){
+	.con{
+		width: 100%;
+	}
+	.con .bor{
+		width: 100%;
+		margin: 0;
+	}
+}
